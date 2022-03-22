@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 10px;
+}
+.big > .img {
+  border-radius: 20px;
+  cursor: pointer;
+}
+.img1 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./Screen\ Shot\ 2022-03-22\ at\ 9.40.04\ AM.png);
+  background-position: center;
+}
+.img2 {
+  height: 100vh;
+  background-image: url(./Screen\ Shot\ 2022-03-22\ at\ 9.40.26\ AM.png);
+  background-position: center;
+}
+.img3 {
+  height: 100vh;
+  background-image: url(./Screen\ Shot\ 2022-03-22\ at\ 9.40.37\ AM.png);
+  background-position: center;
+}
+.img4 {
+  height: 100vh;
+  background-image: url(./Screen\ Shot\ 2022-03-22\ at\ 9.41.00\ AM.png);
+  background-position: center;
+}
+.img5 {
+  height: 100vh;
+  background-image: url(./Screen\ Shot\ 2022-03-22\ at\ 9.41.11\ AM.png);
+  background-position: center;
+}
+
+h1 {
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.active {
+  flex-grow: 1;
+  transition: 2s all;
+}
